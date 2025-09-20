@@ -71,33 +71,33 @@ Didesain agar surat dapat disimpan, dikategorikan, diunduh, dan dikelola dengan 
   ```bash
    git clone <repository_url>
    cd arsip-surat
-
+  ```
 2. Install dependency Laravel:
   ```bash
    composer install
-
+  ```
 3. Salin file environment:
   ```bash
    cp .env.example .env
-
+  ```
 4. Generate aplikasi key:
   ```bash
    php artisan key:generate
-
+  ```
 5. Buat database baru dengan nama arsipsurat.
 
 6. Import file arsipsurat.sql ke database, atau jalankan perintah:
   ```bash
    php artisan migrate --seed
-
+  ```
 7. Jalankan server:
   ```bash
    php artisan serve
-
+  ```
 8. Akses aplikasi di browser:
   ```bash
    http://127.0.0.1:8000
-
+  ```
 ---
 
 ## 🖼️ Dokumentasi Screenshot
