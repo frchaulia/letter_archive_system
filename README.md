@@ -1,46 +1,3 @@
-### Intallation Guide
-1. Clone the repository:
-   ```bash
-   git clone repository_url
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd arsip-surat
-   ```
-3. Install dependencies using Composer:
-   ```bash
-   composer install
-   ```
-4. Copy the example environment file and modify the necessary settings:
-   ```bash
-   cp .env.example .env
-   ```
-5. Generate an application key:
-   ```bash
-   php artisan key:generate
-   ```
-6. Create new database with the name `arsipsurat`.
-7. Run database migrations:
-   ```bash
-   php artisan migrate
-   ```
-8. Seed the database with initial data:
-   ```bash
-   php artisan db:seed
-   ```
-9. Start the development server:
-   ```bash
-    php artisan serve
-    ```
-10. Access the application in your web browser at `http://localhost:8000`.
-### Default Credentials
-- **Email:** admin@example.com
-- **Password:** 123456
-### Requirements
-- PHP >= 8.0
-- Composer
-- MySQL 
-
 # 📂 Arsip Surat Desa
 
 Aplikasi web berbasis Laravel untuk mengelola arsip surat masuk/keluar pada tingkat desa.  
@@ -98,6 +55,9 @@ Didesain agar surat dapat disimpan, dikategorikan, diunduh, dan dikelola dengan 
   ```bash
    http://127.0.0.1:8000
   ```
+9. Default Credentials
+- Email: admin@example.com
+- Password: 123456
 ---
 
 ## 🖼️ Dokumentasi Screenshot
